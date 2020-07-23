@@ -1,0 +1,134 @@
+.section-six{
+    width: 80%;
+    margin: 0 auto;
+    .header-six{
+        text-align: center;
+        h2{
+            font-size: 36px;
+            line-height: 1.28;
+            color: #242f51;
+            max-width: 432px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        p{
+            max-width: 632px;
+            margin: 0 auto;
+            line-height: 1.63;
+            font-size: 16px;
+            color: #616368;
+        }
+    }
+    .all-six{
+        margin-top: 94px;
+        .icons-six-first{
+            display: flex;
+            @media all and(max-width: $screen-md){
+                flex-wrap: wrap;
+                
+            }
+            .describe-six{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0 20px;
+                @media all and(max-width: $screen-md){
+                    margin-top: 50px;
+                    
+                }
+                @media all and(max-width: $screen-sm){
+                    &:nth-child(1){
+                        margin-top: 0;
+                    }
+                    
+                }
+                h3{
+                    font-size: 20px;
+                    color: #242f51;
+                    margin-bottom: 15px;
+                }
+                p{
+                    max-width: 258px;
+                }
+                .img-six{
+                    margin-bottom: 35px;
+                    width: 88px;
+                    height: 88px;
+                    background-color: #ffecef;
+                    text-align: center;
+                    line-height: 130px;
+                    border-radius: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .six1{
+                     background-color: #ffecef;
+                }
+                .six2{
+                     background-color: #eaf9ff;
+                }
+                .six3{
+                    background-color: #fff6d3;
+                }
+                
+            }
+        }
+        .icons-six-second{
+            display:flex;
+            margin-top: 70px;
+            margin-bottom: 188px;
+            @media all and(max-width: $screen-md){
+                flex-wrap: wrap;
+                
+            }
+                .describe-six{
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 0 20px;
+                    
+                        @media all and(max-width: $screen-md){
+                        margin-top: 50px;
+                            
+                        }
+                        @media all and(max-width: $screen-sm){
+                            &:nth-child(1){
+                                margin-top: 0;
+                            }
+                            
+                        }
+                     h3{
+
+                        font-size: 20px;
+                        color: #242f51;
+                        margin-bottom: 15px;
+                        
+                      }
+                     p{
+                        max-width: 258px;
+                     }
+                    .img-six{
+                        margin-bottom: 35px;
+                        width: 88px;
+                        height: 88px;
+                        background-color: #ffecef;
+                        text-align: center;
+                        line-height: 130px;
+                        border-radius: 100%;
+                        margin-left: auto;
+                        margin-right: auto;
+                     }
+                     .six4{
+                      background-color: #e4ffee;
+                      }
+                    .six5{
+                        background-color: #f4f4ff;
+                     }
+                    .six6{
+                        background-color: #fdeee4;
+                     }
+
+                }
+        }
+    }
+}

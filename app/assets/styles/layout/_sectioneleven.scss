@@ -1,0 +1,64 @@
+.section-eleven{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #e5e6e5;
+    padding: 0 20px;
+    .all-eleven{
+        display: flex;
+        margin-top: 14px;
+        @media all and(max-width: $screen-md){
+            flex-direction: column;
+        }
+        .header-eleven{
+            max-width: 632px;
+            margin-top: 60px;
+            margin-right: -110px;
+            @media all and(max-width: $screen-md){
+                width: 100%;
+            }
+            h2{
+                color: #242f51;
+                font-size: 48px;
+                margin-bottom: 30px;
+                @media screen and(max-width: $screen-sm){
+                    font-size: 35px;
+                }
+            }
+            p{
+                font-size: 16px;
+                color: #616368;
+                line-height: 1.4;
+                @media screen and(max-width: $screen-sm){
+                    font-size: 15px;
+                }
+            }
+            .img-google-apple{
+                display: flex;
+                justify-content: space-between;
+                max-width: 400px;
+                margin-top: 51px;
+                .img-google{
+                    padding-right: 10px;
+                    img{
+                        width:100%;
+                    }
+                }
+                .img-apple{
+                    padding-left: 10px;
+                    img{
+                       width: 100%;
+                    }
+                }
+            }
+        }
+        .image-eleven{
+            @media all and(max-width: $screen-md){
+                margin-top: 50px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+ }   

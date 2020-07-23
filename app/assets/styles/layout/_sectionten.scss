@@ -1,0 +1,113 @@
+.section-ten{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 112px;
+    .header-ten{
+        text-align: center;
+        h2{
+            color: #242f51;
+            font-size: 40px;
+            margin-bottom: 32px;
+        }
+        p{
+            color: #616368;
+            font-size: 16px;
+            max-width: 632px;
+            margin: 0 auto;
+            margin-bottom: 66px;
+        }
+    }
+    .question-ten{
+        max-width: 945px;
+        margin-left: auto;
+        margin-right: auto;
+        .describe-question{
+            max-width: 945px;
+            background-color: #f5f7fa;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 3rem;
+            @media all and(max-width: $screen-sm){
+                padding: 2rem;
+            }
+            h2{
+                color: #242f51;
+                font-size: 20px;
+                margin-bottom: 37px;
+                font-weight: 600;
+            }
+            p{
+                color: #616368;
+                font-size: 16px;
+                line-height: 1.4;
+            }
+        }
+        .question-answer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f5f7fa;
+            margin-top: 10px;
+            .question{
+                h2{
+                    font-size: 20px;
+                    color: #242f51;
+                    padding:  1rem;
+                }
+            }
+            .icon-plus{
+                
+                p{
+                    color: #242f51;
+                    font-size: 40px;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    padding-left: 10px;
+                }
+                
+            }
+           
+        }
+        #firstanswer{
+           margin-top: 10px;
+           background-color: #f5f7fa;
+           padding: 1.5rem;
+           p{
+            color: #242f51;
+            font-size: 18px;
+            line-height: 1.3;
+           }
+        }
+        #secondanswer{
+            margin-top: 10px;
+            background-color: #f5f7fa;
+            padding: 1.5rem;
+            p{
+             color: #242f51;
+             font-size: 18px;
+             line-height: 1.3;
+            }
+         }
+         #thirdanswer{
+            margin-top: 10px;
+            background-color: #f5f7fa;
+            padding: 1.5rem;
+            p{
+             color: #242f51;
+             font-size: 18px;
+             line-height: 1.3;
+            }
+         }
+         #fourthanswer{
+            margin-top: 10px;
+            background-color: #f5f7fa;
+            padding: 1.5rem;
+            p{
+             color: #242f51;
+             font-size: 18px;
+             line-height: 1.3;
+            }
+         }
+    }
+}

@@ -1,0 +1,37 @@
+@import 'generic/variables';
+@import 'generic/mixins';
+@import 'generic/functions';
+
+// Use normalize or reset, whatever you prefer.
+@import 'normalize.css';
+// @import 'reset.css';
+
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/helpers';
+@import 'base/utilities';
+
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/tables';
+@import 'components/tooltips';
+@import 'components/preloader';
+
+@import 'animations/keyframes';
+
+@import 'layout/header';
+@import 'layout/sidebar';
+@import 'layout/footer';
+@import 'layout/banner';
+@import 'layout/company';
+@import 'layout/features';
+@import 'layout/sectionfour';
+@import 'layout/sectionfive';
+@import 'layout/sectionsix';
+@import 'layout/sectionseven';
+@import 'layout/sectioneight';
+@import 'layout/sectionnine';
+@import 'layout/sectionten';
+@import 'layout/sectioneleven';
+@import 'layout/menuhamburger';

@@ -1,0 +1,159 @@
+.section-seven{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .header-seven{
+        
+        h2{
+            font-size: 36px;
+            color: #242f51;
+            line-height: 1.1;
+            max-width: 318px;
+            margin-bottom: 30px;
+            @media all and(max-width: $screen-md){
+                
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+        }
+        p{
+            max-width: 392px;
+            color: #616368;
+            line-height: 1.63;
+            font-size: 16px;
+            margin-bottom: 60px;
+            @media all and(max-width: $screen-md){
+                
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+        }
+    }
+    
+        .all-seven{
+            display: flex;
+            justify-content: space-between;
+                @media all and(max-width: $screen-md){
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .seven-first{
+                    padding-right: 30px;
+                    .describe-seven{
+                        .img-seven{
+                                margin-bottom: 35px;
+                                width: 88px;
+                                height: 88px;
+                                
+                                text-align: center;
+                                line-height: 130px;
+                                border-radius: 100%;
+                                
+                        }
+                        h2{
+                            font-size: 20px;
+                            color: #242f51;
+                            margin-bottom: 15px;
+                        }
+                        p{
+                            max-width: 259px;
+                            font-size: 16px;
+                            margin-bottom: 60px;
+                        }
+                    }
+                        .seven1{
+                            background-color: #ffecef;
+                        }
+                        
+                        .seven3{
+                            background-color: #fff6d3;
+                        }
+                        .button-nav{
+                            
+                            a{
+                                padding: 15px 50px 15px 50px;
+                                
+                                background: #2500f9;
+                                text-decoration: none;
+                                margin: 0 auto;
+                                color: #fff;
+                                text-align: center;
+                                border-radius: 28.5px;
+                                font-weight: 600;
+                            }
+                            @media all and(max-width: $screen-md){
+                                display: none;
+                            }
+                         }
+                }
+                .seven-second{
+                
+                    .describe-seven{
+                        .img-seven{
+                                margin-bottom: 30px;
+                                width: 88px;
+                                height: 88px;
+                                
+                                text-align: center;
+                                line-height: 130px;
+                                border-radius: 100%;
+                                
+                        }
+                        h2{
+                            font-size: 20px;
+                            color: #242f51;
+                            margin-bottom: 15px;
+                        }
+                        p{
+                            max-width: 259px;
+                            font-size: 16px;
+                            margin-bottom: 60px;
+                        }
+                    }
+                    
+                    .seven4{
+                        background-color: #f4f4ff;
+                    }
+                    .seven2{
+                        background-color: #e4ffee;
+                        
+                    }
+                
+                    .button-nav{
+                            margin-bottom: 100px;
+                        a{
+                            padding: 15px 50px 15px 50px;
+                            
+                            background: #2500f9;
+                            text-decoration: none;
+                            margin: 0 auto;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 28.5px;
+                            font-weight: 600;
+                        }
+                        @media all and(min-width: $screen-md){
+                            display: none;
+                        }
+                     }
+                }
+                .img-right{
+                    
+                    
+                    background-image: url('/resources/images/vector smart object.png');
+                    background-repeat: no-repeat;
+                    // max-width: 100%;
+                    .img-right-first{
+                        margin-left: 200px;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                }
+        }
+    
+        
+}

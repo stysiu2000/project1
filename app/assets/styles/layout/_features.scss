@@ -1,0 +1,146 @@
+.features{
+    margin-top: 200px;
+    padding: 0 20px;
+    margin-bottom: 113px;
+    @media all and(max-width: $screen-md){
+        margin-top: 100px;
+        
+    }
+    .features-all{
+        display: flex;
+        
+        @media all and(max-width: $screen-md){
+            // display: flex;
+            flex-direction: column-reverse;
+            
+        }
+        
+        .image-features{
+            text-align: center;
+            img{
+                width: 100%;
+                @media all and(max-width: $screen-md){
+                    width: auto;
+                    
+                }
+                @media all and(max-width: $screen-sm){
+                    width: 100%;
+                }
+            }
+        }
+        .together-features-icon{
+           max-width: 90%;
+           margin: 0 auto;
+            .header-featuers{
+                // display: flex;
+                // flex-direction: column;
+                // align-items: center;
+                h2{
+                    font-size: 36px;
+                    max-width: 281px;
+                    color: #242f51;
+                    font-weight: 600;
+                    margin-bottom: 28px;
+                    @media all and(max-width: $screen-md){
+                        // width: 100%;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    color: #616368;
+                    max-width: 428px;
+                    margin-bottom: 62px;
+                }
+            }
+            .element-icon{
+                display: flex;
+                @media all and(max-width: $screen-md){
+                    display: block;
+                    
+                }
+                .elements-featuers{
+                    h3{
+                        font-size: 20px;
+                        color: #f55767;
+                        margin-bottom: 20px;
+                        
+                    }
+                    p{
+                        color: #616368;
+                        max-width: 259px;
+                        font-size: 16px;
+                        line-height: 1.4;
+                        margin-bottom: 62px;
+                    }
+                   
+                   
+                }
+                
+                // .elements-featuers2{
+                //     h3{
+                //         font-size: 20px;
+                //         color: #2563ff;
+                //         margin-bottom: 20px;
+                //     }
+                //     p{
+                //         color: #616368;
+                //         width: 259px;
+                //         font-size: 16px;
+                //         line-height: 1.4;
+                //         margin-bottom: 62px;
+                //     }
+                // }
+                // .elements-featuers3{
+                //     h3{
+                //         font-size: 20px;
+                //       color: #40975f;
+                //       margin-bottom: 20px;
+                //     }
+                //     p{
+                //         color: #616368;
+                //         width: 259px;
+                //         font-size: 16px;
+                //         line-height: 1.4;
+                //     }
+                }
+                .icon-featuers{
+                    width: 88px;
+                    height: 88px;
+                    background-color: #ffecef;
+                    text-align: center;
+                    line-height: 130px;
+                    border-radius: 100%;
+                   
+                    margin: 30px 32px 0 26px;
+
+                   @media all and(max-width: $screen-md){
+                       margin-bottom: 20px;
+
+                       
+                   }
+                   
+                }
+                
+             }
+             .element-icon2{
+                .icon-featuers{
+                    background-color: #f4f4ff;
+                    .elements-featuers{
+                        h3{
+                            color: #f4f4ff;
+                        
+                        }
+                    }
+                }
+            }
+            .element-icon3{
+                .icon-featuers{
+                    background:#e4ffee;
+                   
+                }
+               
+            }
+        }
+        
+    }
+
