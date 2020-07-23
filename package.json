@@ -46,7 +46,7 @@
   "dependencies": {
     "babel-polyfill": "^6.13.0",
     "classnames": "^2.2.5",
-    "jquery": "^2.2.2",
+    "jquery": "^3.5.0",
     "normalize.css": "^4.2.0",
     "sass-module-importer": "^1.4.0"
   }
